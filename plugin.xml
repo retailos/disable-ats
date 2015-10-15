@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.redant.disabled-ats"
+        version="0.0.5">
+    <name>Disable ATS</name>
+    <description>Disable ATS</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,ats</keywords>
+    <repo>git@bitbucket.org:retailos/cordova-plugin-barcode-scanner.git</repo>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
+            <dict>  
+                <key>NSAllowsArbitraryLoads</key><true/>  
+            </dict>
+        </config-file>
+    </platform>
+
+</plugin>
