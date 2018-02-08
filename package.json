@@ -1,0 +1,22 @@
+{
+  "name": "@redant/cordova-disable-ats",
+  "version": "0.0.1",
+  "description": "Disable ATS",
+  "cordova": {
+    "id": "com.redant.disable-ats",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:retailos/disable-ats.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Red Ant",
+  "license": "Apache 2.0"
+}
