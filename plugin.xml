@@ -7,7 +7,7 @@
     <description>Disable ATS</description>
     <license>Apache 2.0</license>
     <keywords>cordova,ats</keywords>
-    <repo>git@bitbucket.org:retailos/cordova-plugin-barcode-scanner.git</repo>
+    <repo>https://github.com/retailos/disable-ats.git</repo>
 
     <!-- ios -->
     <platform name="ios">
